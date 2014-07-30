@@ -6,7 +6,7 @@
 		"dijit": ">=1.9.1",
 		"requirejs": "2.1.x",
 		"dcl": "1.1.x",
-		"decor": "0.1.x",
+		"decor": "0.2.x",
 		"dcolor": "0.1.x",
 		"dpointer": "0.1.x"
 	},
