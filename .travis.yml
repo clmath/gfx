@@ -1,14 +1,15 @@
-# Travis CI configuration for GFX
 env:
   global:
-    - secure: "YxASKR++ZmuJw2MSgClQ6mQINeghfO5R9FddcopUexdO3KIYv9uqcJICFsaWEBGDtLxJLkFHqOwX0asWxEUUIHDvl4r1ktg+FVPnZsrPcoA8zgosfFC6b7bQkv3RXnTMhfIvLIsr/e6fEadThUTcD38EYWtfFAeFY6EsvQH1M/E="
-    - secure: "T/vdF+Z0B8b17A2LiJaL/h80U1+ath37iIpzkwZDDouKyIGFOF68LFexcxpMjS9TyWJU2AKcxdW4mGLFTEPqUwO0Bwh4tvvXqVynY9kcvcNgXvPFel9MtjO1NXTMniq6gx6not2aG7IsO1ur2AAIWLXQHN18dzyJBN0jQNQRRsg="
+  - secure: YxASKR++ZmuJw2MSgClQ6mQINeghfO5R9FddcopUexdO3KIYv9uqcJICFsaWEBGDtLxJLkFHqOwX0asWxEUUIHDvl4r1ktg+FVPnZsrPcoA8zgosfFC6b7bQkv3RXnTMhfIvLIsr/e6fEadThUTcD38EYWtfFAeFY6EsvQH1M/E=
+  - secure: T/vdF+Z0B8b17A2LiJaL/h80U1+ath37iIpzkwZDDouKyIGFOF68LFexcxpMjS9TyWJU2AKcxdW4mGLFTEPqUwO0Bwh4tvvXqVynY9kcvcNgXvPFel9MtjO1NXTMniq6gx6not2aG7IsO1ur2AAIWLXQHN18dzyJBN0jQNQRRsg=
+  - secure: FxKbVINOONJFJ0WI2sidajN88N0VKb7JOkxS7fTK+9CKqc5zHv0HzhNuny35QiUo3jFIm0to+4HviNrlBmi13BTbp1lYgDCnWwNNBSHTEbd3zrEeOieHbi4VzyBHLWiItzQG963GWmQayuRwTWyU1ABCNQCrnQ90uJsBZEjdViA=
+  - secure: j6JnM//AXJObXlB6ww/FqMoaHOv7ARLmr5Sf9JaQYu/Bkshg6mjGB/5Do64kwdXP0RWsIij7Wat36wAo84rVpeuPse2gFSl4KUNJidnKaJeOuTfdRnkHvp0LnjRAr1yA4yT3FIFEMtlaFTwmStZAPLT1mEb01hyaANX0wgPnwj8=
 language: node_js
-node_js: "0.10"
+node_js: '0.10'
 install:
-   - npm install -g grunt-cli
-   - npm install -g bower
-   - npm install
-   - bower install
+- npm install -g grunt-cli
+- npm install -g bower
+- npm install
+- bower install
 script:
-  - grunt jshint test:remote
+- grunt jshint test:remote
